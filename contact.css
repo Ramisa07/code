@@ -42,3 +42,26 @@ nav li{
      
     background-color:silver ;
 }
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.right{
+    display:flex ;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.right input{
+    width: 100%;
+    margin: 10px;
+}
+.right #comment{
+    height : 60px;
+}
+.right button{
+    width: 100%;
+}
